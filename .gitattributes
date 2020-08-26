@@ -1,3 +1,4 @@
 src/assets/maze_movie.mp4d filter=lfs diff=lfs merge=lfs -text
 src/assets/maze_movie.mp4 filter=lfs diff=lfs merge=lfs -text
 *.pdf filter=lfs diff=lfs merge=lfs -text
+*.mp4 filter=lfs diff=lfs merge=lfs -text
