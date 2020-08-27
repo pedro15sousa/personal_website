@@ -11,14 +11,14 @@ module.exports = {
         use: ["html-loader"]
       },
       {
-        test: /\.(jpg|jpeg|png|gif|svg|pdf|mp4)$/,
+        test: /\.(jpg|jpeg|png|gif|svg|pdf)$/,
         use: [
           {
             loader: "file-loader",
             options: {
-              name: "[name].[contenthash].[ext]",
+              name: "[name].[hash].[ext]",
               outputPath: "assets",
-              esModule: false,
+              esModule: false
             }
           }
         ]

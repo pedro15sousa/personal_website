@@ -43,19 +43,6 @@ module.exports = merge(common, {
           'css-loader', //2. Turns css into commonjs
           'sass-loader'
         ] //1. Turns sass into css
-      },
-      {
-        test: /\.(jpg|jpeg|png|gif|svg|pdf|mp4)$/,
-        use: [
-          {
-            loader: "file-loader",
-            options: {
-              name: "[name].[contenthash].[ext]",
-              outputPath: "assets",
-              esModule: false,
-            }
-          }
-        ]
       }
     ]
   }
