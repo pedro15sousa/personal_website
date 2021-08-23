@@ -39,6 +39,7 @@
     "emailjs-com": "^2.6.3",
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1",
+    "react-player": "^2.9.0",
     "tilt.js": "^1.2.1"
   }
 }
